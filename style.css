@@ -1250,3 +1250,1128 @@
     font-size: 16px;
   }
 }
+
+.rooms-desktop {
+  display: flex;
+  flex-direction: column;
+  height: 3152px;
+  align-items: flex-start;
+  padding: 10px 0px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.rooms-desktop .navigation {
+  display: flex;
+  width: 1391px;
+  height: 225px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 19.3px 193.01px 19.3px 0px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.rooms-desktop .logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10.52px;
+  padding: 10.52px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.rooms-desktop .img {
+  position: relative;
+  width: 280px;
+  height: 92.48px;
+  aspect-ratio: 3.03;
+  object-fit: cover;
+}
+
+.rooms-desktop .menu-and-book {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14.82px;
+  padding: 14.82px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -170.49px;
+  background-color: #ffffff;
+}
+
+.rooms-desktop .navbar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 59.28px;
+  padding: 14.82px 74.1px;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.rooms-desktop .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.48px;
+  transform: rotate(180deg);
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Space Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--variable-collection-secondary-color);
+  font-size: 23.7px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .div {
+  width: fit-content;
+  margin-top: -1.48px;
+  font-family: "Space Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--variable-collection-secondary-color);
+  font-size: 23.7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.rooms-desktop .text-wrapper-2 {
+  color: #e89a3e;
+  text-decoration: underline;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.48px;
+  transform: rotate(180deg);
+  font-family: "Space Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 23.7px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .home {
+  color: transparent;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.48px;
+  transform: rotate(180deg);
+  font-family: "Space Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 23.7px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .span {
+  color: #191a23;
+}
+
+.rooms-desktop .text-wrapper-3 {
+  color: #e89a3e;
+  text-decoration: underline;
+}
+
+.rooms-desktop .book-now {
+  display: inline-flex;
+  height: 91px;
+  align-items: flex-start;
+  gap: 14.82px;
+  padding: 14.82px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.rooms-desktop .component {
+  position: relative;
+  width: 171px;
+  height: 71px;
+  margin-bottom: -9.64px;
+  background-color: #e89a3e;
+  border-radius: 9.32px;
+}
+
+.rooms-desktop .button {
+  height: 49.30%;
+  font-size: 27.1px;
+  position: absolute;
+  width: 100%;
+  top: 27.91%;
+  left: 0;
+  font-family: "Space Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .rooms-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 10px 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.rooms-desktop .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.rooms-desktop .rooms-villas {
+  position: relative;
+  align-self: stretch;
+  height: 168px;
+  margin-top: -1px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-color-2);
+  font-size: 128px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .p {
+  position: relative;
+  width: 999px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--variable-collection-color-4);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .bahaykubo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+  padding: 50px 60px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.rooms-desktop .bahaykubo-2 {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 491px;
+  object-fit: cover;
+}
+
+.rooms-desktop .frame {
+  display: inline-flex;
+  flex-direction: column;
+  height: 245px;
+  align-items: flex-start;
+  gap: 26px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.rooms-desktop .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Playfair Display-Bold", Helvetica;
+  font-weight: 700;
+  color: #1b2a41;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .text-wrapper-5 {
+  position: relative;
+  width: 568px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #3d4551;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .button-wrapper {
+  position: relative;
+  width: 208px;
+  height: 86px;
+  margin-bottom: -4px;
+  background-color: #1b2a41;
+  border-radius: 10px;
+}
+
+.rooms-desktop .button-2 {
+  height: 43.02%;
+  font-size: 29.1px;
+  position: absolute;
+  width: 100%;
+  top: 27.91%;
+  left: 0;
+  font-family: "Space Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .button-primary {
+  position: relative;
+  width: 225px;
+  height: 76px;
+  margin-bottom: -106px;
+}
+
+.rooms-desktop .modern-glass-house {
+  display: flex;
+  width: 1391px;
+  height: 567px;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+  padding: 50px 60px;
+  position: relative;
+  background-color: #f5f2e9;
+}
+
+.rooms-desktop .modern-glass-house-2 {
+  display: flex;
+  flex-direction: column;
+  width: 541px;
+  height: 303px;
+  align-items: flex-start;
+  gap: 26px;
+  position: relative;
+}
+
+.rooms-desktop .text-wrapper-6 {
+  position: relative;
+  width: 541px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #3d4551;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .rooms {
+  position: relative;
+  width: 644px;
+  height: 483px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  aspect-ratio: 1.33;
+  object-fit: cover;
+}
+
+.rooms-desktop .modern-house {
+  display: flex;
+  width: 1391px;
+  height: 947px;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+  padding: 50px 60px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.rooms-desktop .element {
+  position: relative;
+  width: 629px;
+  height: 839px;
+  margin-left: -0.5px;
+  aspect-ratio: 0.75;
+  object-fit: cover;
+}
+
+.rooms-desktop .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 321px;
+  gap: 26px;
+  flex: 0 0 auto;
+  margin-right: -0.5px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.rooms-desktop .div-wrapper {
+  position: relative;
+  width: 208px;
+  height: 86px;
+  background-color: #1b2a41;
+  border-radius: 10px;
+}
+
+.rooms-desktop .button-primary-2 {
+  position: relative;
+  width: 225px;
+  height: 76px;
+  margin-bottom: -88px;
+}
+
+.rooms-desktop .frame-3 {
+  display: flex;
+  height: 508px;
+  justify-content: space-between;
+  padding: 50px 100px;
+  align-self: stretch;
+  width: 100%;
+  margin-bottom: -10px;
+  background-color: #1b2a41;
+  align-items: flex-start;
+  position: relative;
+}
+
+.rooms-desktop .resort {
+  display: flex;
+  flex-direction: column;
+  width: 581px;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  position: relative;
+}
+
+.rooms-desktop .text-wrapper-7 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Playfair Display-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .group {
+  position: absolute;
+  top: 432px;
+  left: 413px;
+  width: 610px;
+  height: 24px;
+}
+
+.rooms-desktop .text-wrapper-9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.rooms-desktop .contact {
+  position: relative;
+  width: 231px;
+  height: 243px;
+  margin-left: -268px;
+}
+
+.rooms-desktop .lubao-pampanga-info {
+  position: absolute;
+  width: calc(100% - 4px);
+  top: 63px;
+  left: 0;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 60px;
+}
+
+.rooms-desktop .text-wrapper-10 {
+  position: absolute;
+  width: calc(100% - 75px);
+  top: 0;
+  left: 0;
+  font-family: "Playfair Display-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .explore {
+  position: relative;
+  width: 154px;
+  height: 313px;
+  margin-right: -4px;
+  margin-left: -268px;
+}
+
+.rooms-desktop .home-rooms-rates {
+  position: absolute;
+  top: 63px;
+  left: 0;
+  width: 108px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+.rooms-desktop .text-wrapper-11 {
+  position: absolute;
+  width: calc(100% - 4px);
+  top: 0;
+  left: 0;
+  font-family: "Playfair Display-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.rooms-desktop {
+  display: flex;
+  flex-direction: column;
+  height: 3152px;
+  align-items: flex-start;
+  padding: 10px 0;
+  position: relative;
+  background-color: #fff;
+}
+
+.rooms-desktop .navigation {
+  display: flex;
+  width: 1391px;
+  height: 225px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 19.3px 193.01px 19.3px 0;
+  position: relative;
+  background-color: #fff;
+}
+
+.rooms-desktop .logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10.52px;
+  padding: 10.52px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #fff;
+}
+
+.rooms-desktop .img {
+  position: relative;
+  width: 280px;
+  height: 92.48px;
+  aspect-ratio: 3.03;
+  object-fit: cover;
+}
+
+.rooms-desktop .menu-and-book {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14.82px;
+  padding: 14.82px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -170.49px;
+  background-color: #fff;
+}
+
+.rooms-desktop .navbar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 59.28px;
+  padding: 14.82px 74.1px;
+  flex: 0 0 auto;
+  background-color: #fff;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.rooms-desktop .text-wrapper,
+.rooms-desktop .div,
+.rooms-desktop .text-wrapper-2,
+.rooms-desktop .home {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.48px;
+  transform: rotate(180deg);
+  font-family: "Space Grotesk-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 23.7px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .text-wrapper {
+  text-shadow: 0 4px 4px #00000040;
+  color: var(--variable-collection-secondary-color);
+}
+
+.rooms-desktop .div {
+  color: var(--variable-collection-secondary-color);
+}
+
+.rooms-desktop .text-wrapper-2 {
+  color: #e89a3e;
+  text-decoration: underline;
+}
+
+.rooms-desktop .home {
+  color: transparent;
+}
+
+.rooms-desktop .span {
+  color: #191a23;
+}
+
+.rooms-desktop .text-wrapper-3 {
+  color: #e89a3e;
+  text-decoration: underline;
+}
+
+.rooms-desktop .book-now {
+  display: inline-flex;
+  height: 91px;
+  align-items: flex-start;
+  gap: 14.82px;
+  padding: 14.82px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #fff;
+}
+
+.rooms-desktop .component {
+  display: block;
+  position: relative;
+  width: 171px;
+  height: 71px;
+  margin-bottom: -9.64px;
+  background-color: #e89a3e;
+  border-radius: 9.32px;
+}
+
+.rooms-desktop .button {
+  display: block;
+  height: 49.3%;
+  font-size: 27.1px;
+  position: absolute;
+  width: 100%;
+  top: 27.91%;
+  left: 0;
+  font-family: "Space Grotesk-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .rooms-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 10px 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #fff;
+}
+
+.rooms-desktop .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.rooms-desktop .rooms-villas {
+  position: relative;
+  align-self: stretch;
+  height: 168px;
+  margin-top: -1px;
+  font-family: "Playfair Display-Regular", Helvetica, serif;
+  font-weight: 400;
+  color: var(--variable-collection-color-2);
+  font-size: 128px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .p {
+  position: relative;
+  width: 999px;
+  margin: 0;
+  font-family: "Inter-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: var(--variable-collection-color-4);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .bahaykubo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+  padding: 50px 60px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #fff;
+}
+
+.rooms-desktop .bahaykubo-2 {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 491px;
+  object-fit: cover;
+}
+
+.rooms-desktop .frame {
+  display: inline-flex;
+  flex-direction: column;
+  height: 245px;
+  align-items: flex-start;
+  gap: 26px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.rooms-desktop .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin: -1px 0 0;
+  font-family: "Playfair Display-Bold", Helvetica, serif;
+  font-weight: 700;
+  color: #1b2a41;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .text-wrapper-5 {
+  position: relative;
+  width: 568px;
+  margin: 0;
+  font-family: "Inter-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #3d4551;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .button-wrapper,
+.rooms-desktop .div-wrapper {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  width: 208px;
+  height: 86px;
+  background-color: #1b2a41;
+  border-radius: 10px;
+}
+
+.rooms-desktop .button-wrapper {
+  margin-bottom: -4px;
+}
+
+.rooms-desktop .button-2 {
+  display: block;
+  height: 43.02%;
+  font-size: 29.1px;
+  position: absolute;
+  width: 100%;
+  top: 27.91%;
+  left: 0;
+  font-family: "Space Grotesk-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .button-primary {
+  position: relative;
+  width: 225px;
+  height: 76px;
+  margin-bottom: -106px;
+}
+
+.rooms-desktop .modern-glass-house {
+  display: flex;
+  width: 1391px;
+  height: 567px;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+  padding: 50px 60px;
+  position: relative;
+  background-color: #f5f2e9;
+}
+
+.rooms-desktop .modern-glass-house-2 {
+  display: flex;
+  flex-direction: column;
+  width: 541px;
+  height: 303px;
+  align-items: flex-start;
+  gap: 26px;
+  position: relative;
+}
+
+.rooms-desktop .text-wrapper-6 {
+  position: relative;
+  width: 541px;
+  margin: 0;
+  font-family: "Inter-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #3d4551;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .rooms {
+  position: relative;
+  width: 644px;
+  height: 483px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  aspect-ratio: 1.33;
+  object-fit: cover;
+}
+
+.rooms-desktop .modern-house {
+  display: flex;
+  width: 1391px;
+  height: 947px;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+  padding: 50px 60px;
+  position: relative;
+  background-color: #fff;
+}
+
+.rooms-desktop .element {
+  position: relative;
+  width: 629px;
+  height: 839px;
+  margin-left: -0.5px;
+  aspect-ratio: 0.75;
+  object-fit: cover;
+}
+
+.rooms-desktop .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 321px;
+  gap: 26px;
+  flex: 0 0 auto;
+  margin-right: -0.5px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.rooms-desktop .div-wrapper {
+  margin: 0;
+}
+
+.rooms-desktop .button-primary-2 {
+  position: relative;
+  width: 225px;
+  height: 76px;
+  margin-bottom: -88px;
+}
+
+.rooms-desktop .frame-3 {
+  display: flex;
+  height: 508px;
+  justify-content: space-between;
+  padding: 50px 100px;
+  align-self: stretch;
+  width: 100%;
+  margin-bottom: -10px;
+  background-color: #1b2a41;
+  align-items: flex-start;
+  position: relative;
+}
+
+.rooms-desktop .resort {
+  display: flex;
+  flex-direction: column;
+  width: 581px;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  position: relative;
+}
+
+.rooms-desktop .text-wrapper-7 {
+  position: relative;
+  align-self: stretch;
+  margin: -1px 0 0;
+  font-family: "Playfair Display-Bold", Helvetica, serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  margin: 0;
+  font-family: "Inter-Light", Helvetica, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .group {
+  position: absolute;
+  top: 432px;
+  left: 413px;
+  width: 610px;
+  height: 24px;
+}
+
+.rooms-desktop .text-wrapper-9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-family: "Inter-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.rooms-desktop .contact {
+  position: relative;
+  width: 231px;
+  height: 243px;
+  margin-left: -268px;
+  color: #fff;
+  font-style: normal;
+}
+
+.rooms-desktop .lubao-pampanga-info {
+  position: absolute;
+  width: calc(100% - 4px);
+  top: 63px;
+  left: 0;
+  font-family: "Inter-Light", Helvetica, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 60px;
+}
+
+.rooms-desktop .lubao-pampanga-info a,
+.rooms-desktop .home-rooms-rates a {
+  color: inherit;
+}
+
+.rooms-desktop .text-wrapper-10 {
+  position: absolute;
+  width: calc(100% - 75px);
+  top: 0;
+  left: 0;
+  font-family: "Playfair Display-Bold", Helvetica, serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop .explore {
+  position: relative;
+  width: 154px;
+  height: 313px;
+  margin-right: -4px;
+  margin-left: -268px;
+}
+
+.rooms-desktop .home-rooms-rates {
+  position: absolute;
+  top: 63px;
+  left: 0;
+  width: 108px;
+  font-family: "Inter-Light", Helvetica, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+.rooms-desktop .text-wrapper-11 {
+  position: absolute;
+  width: calc(100% - 4px);
+  top: 0;
+  left: 0;
+  font-family: "Playfair Display-Bold", Helvetica, serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rooms-desktop a:focus-visible,
+.rooms-desktop button:focus-visible,
+.frame-3 a:focus-visible {
+  outline: 3px solid #e89a3e;
+  outline-offset: 4px;
+}
+
+.rooms-desktop button:hover,
+.rooms-desktop a:hover {
+  filter: brightness(0.96);
+}
+
+@media (max-width: 900px) {
+  .rooms-desktop {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .rooms-desktop .navigation,
+  .rooms-desktop .modern-glass-house,
+  .rooms-desktop .modern-house {
+    width: 100%;
+  }
+
+  .rooms-desktop .navigation {
+    height: auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .rooms-desktop .img {
+    width: min(280px, 45vw);
+    height: auto;
+  }
+
+  .rooms-desktop .menu-and-book {
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .rooms-desktop .navbar {
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .rooms-desktop .rooms-villas {
+    height: auto;
+    font-size: clamp(48px, 10vw, 128px);
+  }
+
+  .rooms-desktop .p {
+    width: min(999px, 90%);
+    font-size: 18px;
+  }
+
+  .rooms-desktop .bahaykubo,
+  .rooms-desktop .modern-glass-house,
+  .rooms-desktop .modern-house {
+    height: auto;
+    min-height: 0;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .rooms-desktop .bahaykubo-2,
+  .rooms-desktop .rooms,
+  .rooms-desktop .element {
+    width: 50%;
+    height: auto;
+  }
+
+  .rooms-desktop .text-wrapper-5,
+  .rooms-desktop .text-wrapper-6,
+  .rooms-desktop .modern-glass-house-2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .rooms-desktop .frame-3 {
+    height: auto;
+    min-height: 508px;
+    padding: 40px 30px;
+    gap: 30px;
+  }
+}

@@ -1,97 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="L’Familia Marangle Resort — a peaceful family-run retreat in Lubao, Pampanga.">
-        <title>L’Familia Marangle Resort</title>
-        <link rel="stylesheet" href="globals.css">
-        <link rel="stylesheet" href="styleguide.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="home-desktop">
-            <header class="navigation">
-                <a class="logo" href="#home" aria-label="L’Familia Marangle Resort home">
-                <img class="img" src="img/logo.png" alt="L’Familia Marangle Resort logo" width="280" height="92">
-                </a>
-                <div class="menu-and-book">
-                    <nav class="navbar" aria-label="Primary navigation">
-                        <a class="text-wrapper" href="#contact">Contact Us</a>
-                        <a class="div" href="#facilities">Facilities</a>
-                        <a class="div" href="#rates">Rates</a>
-                        <a class="div" href="#rooms">Rooms</a>
-                        <a class="text-wrapper-2" href="#home" aria-current="page">Home</a>
-                    </nav>
-                    <div class="book-now">
-                        <a class="component" href="#booking">
-                        <span class="button">Book Now</span>
-                        </a>
-                    </div>
-                </div>
-            </header>
-            <main>
-                <section class="hero-image" id="home" aria-labelledby="hero-title" style="background-image: url('img/hero-img.png'); background-size: cover; background-position: center;">
-                <div class="div-wrapper">
-                    <div class="text">
-                        <div class="rectangle" aria-hidden="true"></div>
-                        <h1 class="DISCOVER-OUR-RETREAT" id="hero-title">DISCOVER OUR RETREAT</h1>
-                        <img class="line" src="img/line-1.svg" alt="" aria-hidden="true">
-                        <p class="the-perfect">The perfect backdrop for your next day out</p>
-                        <a class="button-wrapper" href="#featured">
-                        <span class="button-2">Explore our Villas →</span>
-                        </a>
-                    </div>
-                </div>
-                </section>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | L'Familia Marangle Resort</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;600;700&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<input type="checkbox" id="menu-toggle" class="menu-toggle">
+<header class="site-header">
+  <a class="logo" href="index.html"><img src="images/logo.png" alt="L'Familia Marangle Resort"></a>
+  <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="rates.html">Rates</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="contact.html">Contact Us</a>
+  </nav>
+  <a class="book-btn" href="booking.html">Book Now</a>
+  <label for="menu-toggle" class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></label>
+</header>
+<div class="menu-overlay">
+  <label for="menu-toggle" class="menu-close" aria-label="Close menu">&times;</label>
+  <h2>MENU</h2>
+  <a href="index.html">Home</a>
+  <a href="rooms.html">Rooms</a>
+  <a href="rates.html">Rates</a>
+  <a href="facilities.html">Facilities</a>
+  <a href="contact.html">Contact Us</a>
+  <a class="menu-book" href="booking.html">Book Now</a>
+</div>
+<main>
+  <section class="hero">
+    <img class="hero-photo" src="images/hero-home.jpg" alt="Resort grounds with pergola and swimming pool">
+    <div class="hero-box">
+      <h1>DISCOVER OUR RETREAT</h1>
+      <hr class="hero-line">
+      <p>The perfect backdrop for your next day out</p>
+      <a class="dark-btn" href="rooms.html">Explore our Villas →</a>
+    </div>
+  </section>
 
-                <section class="about-us" id="about" aria-labelledby="about-title">
-                    <div class="about-us-2">
-                        <h2 class="p" id="about-title">Welcome to L’Familia Marangle Resort</h2>
-                        <p class="text-wrapper-3">Enjoy a relaxing getaway with great facilities and honest prices. We are a family-run retreat dedicated to giving you a comfortable, memorable, and affordable vacation. Unwind, connect, and let our family take care of yours.</p>
-                    </div>
-                </section>
+  <section class="welcome">
+    <h2>Welcome to L’Familia Marangle Resort</h2>
+    <p>Enjoy a relaxing getaway with great facilities and honest prices. We are a family-run retreat dedicated to giving you a comfortable, memorable, and affordable vacation. Unwind, connect, and let our family take care of yours.</p>
+  </section>
 
-                <section class="featured" id="featured" aria-labelledby="featured-title">
-                    <article class="featured-villa">
-                        <div class="frame">
-                            <p class="text-wrapper-4">Featured Villa</p>
-                            <h2 class="text-wrapper-5" id="featured-title">Modern Glass House</h2>
-                            <p class="text-wrapper-6">Our contemporary villa features expansive floor-to-ceiling glass, warm architectural wood accents, and step-out access to the sparkling pool. It is the perfect blend of modern design and refreshing outdoor living.</p>
-                            <a class="text-wrapper-7" href="#booking">View Details</a>
-                        </div>
-                        <img class="element" src="img/featured.png" alt="Modern Glass House villa and pool" width="582" height="437">
-                    </article>
-                </section>
-            </main>
+  <section class="featured">
+    <div class="featured-text">
+      <h3>Featured Villa</h3>
+      <h2>Modern Glass House</h2>
+      <p>Our contemporary villa features expansive floor-to-ceiling glass, warm architectural wood accents, and step-out access to the sparkling pool. It is the perfect blend of modern design and refreshing outdoor living.</p>
+      <a href="rooms.html">View Details</a>
+    </div>
+    <img src="images/villa-glass-house-exterior.jpg" alt="Modern Glass House exterior beside the pool">
+  </section>
 
-            <footer class="frame-2" id="contact">
-                <section class="resort" aria-labelledby="resort-title">
-                    <h2 class="text-wrapper-8" id="resort-title">L’ FAMILIA MARANGLE RESORT</h2>
-                    <p class="text-wrapper-9">A peaceful family-run haven, dedicated to providing comfortable escapes, honest prices, and a relaxing space to connect with those who matter most.</p>
-                </section>
-                <section class="contact" aria-labelledby="contact-title">
-                    <h2 class="text-wrapper-11" id="contact-title">CONTACT</h2>
-                    <address class="lubao-pampanga-info">
-                    Lubao, Pampanga<br>
-                    <a href="mailto:info@LFamilia.com">info@LFamilia.com</a><br>
-                    <a href="tel:+639235994025">+63 (923) 599-4025</a>
-                    </address>
-                </section>
-                <nav class="explore" aria-labelledby="explore-title">
-                    <h2 class="text-wrapper-12" id="explore-title">EXPLORE</h2>
-                    <div class="home-rooms-rates">
-                        <a href="#home">Home</a><br>
-                        <a href="#rooms">Rooms</a><br>
-                        <a href="#rates">Rates</a><br>
-                        <a href="#facilities">Facilities</a><br>
-                        <a href="#contact">Contact</a>
-                    </div>
-                </nav>
-                <div class="group">
-                    <p class="text-wrapper-10">© 2026 L’FAMILIA MARANGLE RESORT. ALL RIGHTS RESERVED</p>
-                </div>
-            </footer>
-        </div>
-    </body>
+  <section class="enjoy">
+    <h2>Welcome to L’Familia Marangle Resort</h2>
+    <h1>ENJOY YOUR STAY<span class="bang">!</span></h1>
+  </section>
+
+  <section class="intro">
+    <div class="intro-card">
+      <h3>Looking for a cheap but comfortable place to stay at?</h3>
+      <p>Enjoy a relaxing getaway with great facilities and honest prices. L’Familia Marangle Resort is a family-run retreat dedicated to giving you a comfortable, memorable, and affordable vacation. Unwind, connect, and let our family take care of yours.</p>
+      <p>We are committed to providing great service to every guest who walks through our doors. Because we are family-operated, we take personal pride in keeping our facilities clean and ensuring your stay is completely stress-free. Contact us today to book your perfect getaway!</p>
+    </div>
+    <img src="images/pool.jpg" alt="Swimming pool with shade canopy">
+  </section>
+
+  <section class="contact-cta">
+    <h2>Contact Us Today</h2>
+    <a href="tel:+639235994025">+63 (923) 599-4025</a>
+    <h2>Email Us</h2>
+    <a href="mailto:info@LFamilia.com">info@LFamilia.com</a>
+  </section>
+
+  <section class="resort-rates">
+    <h2>Resort Rates</h2>
+    <div class="mini-card">
+      <div class="mini-row"><h3>Swimming Pool</h3><p>Adult ₱150/₱200 | Kids ₱100/₱150</p></div>
+      <div class="mini-row"><h3>Modern Bahay Kubo</h3><p>₱7,000 - ₱10,000</p></div>
+      <div class="mini-row"><h3>Modern Glass House</h3><p>₱10,000 - ₱12,000</p></div>
+      <div class="mini-row"><h3>Modern House</h3><p>₱12,000 - ₱15,000</p></div>
+      <div class="mini-row"><h3>Cottage w/ 6 chairs</h3><p>₱300</p></div>
+    </div>
+  </section>
+</main>
+<footer class="footer-full">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>L’ Familia Marangle Resort</h3>
+      <p>A peaceful family-run haven, dedicated to providing comfortable escapes, honest prices, and a relaxing space to connect with those who matter most.</p>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>Lubao, Pampanga</p>
+      <p>info@LFamilia.com</p>
+      <p>+63 (923) 599-4025</p>
+    </div>
+    <div class="footer-explore">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="rates.html">Rates</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="copyright">© 2026 L’Familia Marangle Resort. All rights reserved</p>
+</footer>
+<footer class="footer-mini">
+  <p>© 2026 L’FAMILIA MARANGLE RESORT. ALL RIGHTS RESERVED</p>
+  <p>Lubao, Pampanga, Philippines</p>
+  <p>LFamilia.com</p>
+</footer>
+</body>
 </html>
