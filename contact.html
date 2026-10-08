@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Facilities | L'Familia Marangle Resort</title>
+<title>Contact Us | L'Familia Marangle Resort</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;600;700&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <input type="checkbox" id="menu-toggle" class="menu-toggle">
@@ -17,8 +17,8 @@
       <a href="index.html">Home</a>
       <a href="rooms.html">Rooms</a>
       <a href="rates.html">Rates</a>
-      <a href="facilities.html" class="active">Facilities</a>
-      <a href="contact.html">Contact Us</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="contact.html" class="active">Contact Us</a>
   </nav>
   <a class="book-btn" href="booking.html">Book Now</a>
   <label for="menu-toggle" class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></label>
@@ -35,28 +35,34 @@
 </div>
 <main>
   <section class="page-title">
-    <h1>Facilities</h1>
-    <p>Spaces designed for recreation, comfort, and relaxation</p>
+    <h1>Contact Us</h1>
+    <p>We are here to assist with your reservations, special requests, and any questions you may have about the L’Familia experience.</p>
   </section>
 
-  <section class="facilities">
-    <div class="facility-list">
-      <div class="facility-card">
-        <img src="images/facility-pool.jpg" alt="Swimming pool at night">
-        <h2>Swimming Pools</h2>
-        <p>Jump into fun at our clear, sparkling swimming pool. It is the absolute best spot to cool off and soak up the sun.</p>
-      </div>
-      <div class="facility-card">
-        <img src="images/facility-event-space.jpg" alt="Open-air event space">
-        <h2>Open-Air Event Space</h2>
-        <p>Throw a party to remember in our beautiful outdoor space. It offers a wide-open, breezy setting for any special occasion.</p>
-      </div>
-      <div class="facility-card">
-        <img src="images/facility-cottages.jpg" alt="Benches and cottages">
-        <h2>Bench and Cottages</h2>
-        <p>Kick back in our cozy, private cottages or take a breather on the quiet benches spread around the grounds. These comfortable spots give you a peaceful place to hang out, eat, and enjoy the beautiful view together.</p>
-      </div>
+  <section class="contact">
+    <form class="contact-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="John Doe">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="john@example.com">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="How can we help you?"></textarea>
+      <button type="submit" class="send-btn">Send Message</button>
+    </form>
+    <div class="contact-card">
+      <h2>L’ Familia Marangle Resort</h2>
+      <h3>Location</h3>
+      <p>Sitio dam, 83 San Pablo 2nd<br>Lubao, Pampanga</p>
+      <h3>Reservations</h3>
+      <p>+63 (923) 599-4025<br>reservations@LFamilia.com</p>
+      <h3>General Inquiries</h3>
+      <p>info@LFamilia.com</p>
     </div>
+  </section>
+
+  <section class="locate">
+    <h2>Locate Us Here</h2>
+    <img src="images/map.png" alt="Map showing L’Familia Marangle Resort in Lubao, Pampanga">
   </section>
 </main>
 <footer class="footer-full">
