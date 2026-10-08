@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booking | L'Familia Marangle Resort</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;600;700&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<input type="checkbox" id="menu-toggle" class="menu-toggle">
+<header class="site-header">
+  <a class="logo" href="index.html"><img src="images/logo.png" alt="L'Familia Marangle Resort"></a>
+  <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="rates.html">Rates</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="contact.html">Contact Us</a>
+  </nav>
+  <a class="book-btn" href="booking.html">Book Now</a>
+  <label for="menu-toggle" class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></label>
+</header>
+<div class="menu-overlay">
+  <label for="menu-toggle" class="menu-close" aria-label="Close menu">&times;</label>
+  <h2>MENU</h2>
+  <a href="index.html">Home</a>
+  <a href="rooms.html">Rooms</a>
+  <a href="rates.html">Rates</a>
+  <a href="facilities.html">Facilities</a>
+  <a href="contact.html">Contact Us</a>
+  <a class="menu-book" href="booking.html">Book Now</a>
+</div>
+<main>
+  <section class="hero booking-hero">
+    <img class="hero-photo" src="images/villa-glass-house-exterior.jpg" alt="Modern Glass House exterior beside the pool">
+    <div class="hero-box">
+      <h1>Booking</h1>
+      <p>Reserve your next relaxing escape with ease</p>
+    </div>
+  </section>
+
+  <section class="page-title mobile-title">
+    <h1>Booking</h1>
+    <p>Reserve your next escape with ease</p>
+  </section>
+
+  <section class="stay">
+    <h2 class="stay-heading">Details of your stay</h2>
+    <form class="stay-panel">
+      <div class="stay-row">
+        <div class="field">
+          <label for="checkin">Check-in date</label>
+          <input type="date" id="checkin" name="checkin" value="2026-09-03">
+        </div>
+        <div class="field">
+          <label for="checkout">Check-out date</label>
+          <input type="date" id="checkout" name="checkout" value="2026-09-04">
+        </div>
+      </div>
+      <div class="stay-row">
+        <div class="field">
+          <label for="adults">Stay in room</label>
+          <small>Guests aged 12 or above</small>
+          <select id="adults" name="adults">
+            <option value="1">1 adult</option>
+            <option value="2" selected>2 adults</option>
+            <option value="3">3 adults</option>
+            <option value="4">4 adults</option>
+            <option value="5">5 adults</option>
+            <option value="6">6 adults</option>
+          </select>
+        </div>
+        <div class="field">
+          <select id="children" name="children" aria-label="Add a child">
+            <option value="0" selected>+ Add a child</option>
+            <option value="1">1 child</option>
+            <option value="2">2 children</option>
+            <option value="3">3 children</option>
+            <option value="4">4 children</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" class="check-btn">Check availability</button>
+    </form>
+  </section>
+</main>
+<footer class="footer-full">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>L’ Familia Marangle Resort</h3>
+      <p>A peaceful family-run haven, dedicated to providing comfortable escapes, honest prices, and a relaxing space to connect with those who matter most.</p>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>Lubao, Pampanga</p>
+      <p>info@LFamilia.com</p>
+      <p>+63 (923) 599-4025</p>
+    </div>
+    <div class="footer-explore">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="rates.html">Rates</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="copyright">© 2026 L’Familia Marangle Resort. All rights reserved</p>
+</footer>
+<footer class="footer-mini">
+  <p>© 2026 L’FAMILIA MARANGLE RESORT. ALL RIGHTS RESERVED</p>
+  <p>Lubao, Pampanga, Philippines</p>
+  <p>LFamilia.com</p>
+</footer>
+</body>
+</html>
