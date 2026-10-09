@@ -83,6 +83,29 @@
           </select>
         </div>
       </div>
+       <div class="stay-row stay-choices">
+        <div class="field">
+          <label for="room">Choose a room</label>
+          <select id="room" name="room">
+            <option value="" selected>Select a room or villa</option>
+            <option value="bahay-kubo">Modern Bahay Kubo</option>
+            <option value="glass-house">Modern Glass House</option>
+            <option value="modern-house">Modern House</option>
+          </select>
+        </div>
+        <div class="field">
+          <p class="field-title">Choose facilities</p>
+          <details class="multi-select">
+            <summary>Select facilities</summary>
+            <div class="multi-list">
+              <label><input type="checkbox" name="facility" value="pool"> Swimming Pool</label>
+              <label><input type="checkbox" name="facility" value="event-space"> Open-Air Event Space</label>
+              <label><input type="checkbox" name="facility" value="cottages"> Bench and Cottages</label>
+              <label><input type="checkbox" name="facility" value="table"> Table with 6 Chairs</label>
+            </div>
+          </details>
+        </div>
+      </div>
       <button type="submit" class="check-btn">Check availability</button>
     </form>
   </section>
